@@ -1,3 +1,4 @@
+/* 엔트리 포인트 */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -9,6 +10,14 @@ root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
+  /*
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+
+    <App/> 만 써도 되는데
+    개발할 때 stric mode 사용하기 위해 선언해놓은 것임.
+  */
 );
 
 // If you want to start measuring performance in your app, pass a function
